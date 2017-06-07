@@ -1,0 +1,45 @@
+.display-1 {
+  margin-top: 20px;
+  font-family: Helvetica Neue; }
+  @media (max-width: 768px) {
+    .display-1 {
+      font-size: 60px;
+      text-align: center; } }
+
+.input-group {
+  width: 70%;
+  margin: 50px auto; }
+  @media (max-width: 768px) {
+    .input-group {
+      width: 100%;
+      height: 50px; } }
+  .input-group input {
+    font-size: 40px; }
+    @media (max-width: 768px) {
+      .input-group input {
+        font-size: 22px; } }
+  .input-group button {
+    font-size: 30px; }
+    @media (max-width: 768px) {
+      .input-group button {
+        font-size: 18px; } }
+
+.entries-container {
+  margin-bottom: 50px; }
+
+a {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: black; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: black; }
+  a h4 {
+    margin: 20px;
+    text-align: left; }
