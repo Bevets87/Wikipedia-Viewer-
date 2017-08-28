@@ -19,6 +19,7 @@
       .input-group input {
         font-size: 22px; } }
   .input-group button {
+    cursor: pointer;
     font-size: 30px; }
     @media (max-width: 768px) {
       .input-group button {

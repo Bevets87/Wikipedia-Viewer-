@@ -32,7 +32,6 @@
         self.$entriesContainer[0].innerHTML = '';
       },
       'showEntry': function () {
-        console.dir(data)
         var a = document.createElement('a');
         a.setAttribute('href','https://en.wikipedia.org/?curid=' + data.pageid);
         a.setAttribute('target','_blank');
